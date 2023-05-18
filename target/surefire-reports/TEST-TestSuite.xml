@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="58.445" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes;C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\classes;C:\Users\ashin\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ashin\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ashin\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ashin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ashin\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ashin\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\ashin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ashin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashin\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\ashin\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\ashin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ashin\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ashin\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ashin\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ashin\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ashin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ashin\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ashin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ashin\.m2\repository\io\rest-assured\spring-mock-mvc\5.3.0\spring-mock-mvc-5.3.0.jar;C:\Users\ashin\.m2\repository\io\rest-assured\spring-commons\5.3.0\spring-commons-5.3.0.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-test\4.3.23.RELEASE\spring-test-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-core\4.3.23.RELEASE\spring-core-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-webmvc\4.3.23.RELEASE\spring-webmvc-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-aop\4.3.23.RELEASE\spring-aop-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-beans\4.3.23.RELEASE\spring-beans-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-expression\4.3.23.RELEASE\spring-expression-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-web\4.3.23.RELEASE\spring-web-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\io\rest-assured\spring-web-test-client\5.3.0\spring-web-test-client-5.3.0.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\ashin\.m2\repository\org\synchronoss\cloud\nio-multipart-parser\1.1.0\nio-multipart-parser-1.1.0.jar;C:\Users\ashin\.m2\repository\org\synchronoss\cloud\nio-stream-storage\1.1.3\nio-stream-storage-1.1.3.jar;C:\Users\ashin\.m2\repository\io\rest-assured\scala-support\5.3.0\scala-support-5.3.0.jar;C:\Users\ashin\.m2\repository\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar;C:\Users\ashin\.m2\repository\io\rest-assured\kotlin-extensions\5.3.0\kotlin-extensions-5.3.0.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.7.20\kotlin-stdlib-jdk8-1.7.20.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.20\kotlin-stdlib-1.7.20.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.20\kotlin-stdlib-common-1.7.20.jar;C:\Users\ashin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.7.20\kotlin-stdlib-jdk7-1.7.20.jar;C:\Users\ashin\.m2\repository\io\rest-assured\rest-assured-all\5.3.0\rest-assured-all-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ashin\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\ashin\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ashin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ashin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ashin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ashin\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ashin\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ashin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ashin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ashin\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ashin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\ashin\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\ashin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\ashin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\ashin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\ashin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\ashin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ashin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ashin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ashin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ashin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ashin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ashin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ashin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ashin\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ashin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ashin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\ashin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ashin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ashin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ashin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\ashin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\ashin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ashin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ashin\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ashin\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\ashin\AppData\Local\Temp\surefire3821108078306879613\surefirebooter-20230517210332366_3.jar C:\Users\ashin\AppData\Local\Temp\surefire3821108078306879613 2023-05-17T21-03-30_127-jvmRun1 surefire-20230517210332366_1tmp surefire_0-20230517210332366_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes;C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\classes;C:\Users\ashin\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\ashin\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\ashin\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ashin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ashin\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ashin\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\ashin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ashin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashin\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\ashin\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\ashin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ashin\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ashin\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ashin\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ashin\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ashin\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ashin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ashin\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ashin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ashin\.m2\repository\io\rest-assured\spring-mock-mvc\5.3.0\spring-mock-mvc-5.3.0.jar;C:\Users\ashin\.m2\repository\io\rest-assured\spring-commons\5.3.0\spring-commons-5.3.0.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-test\4.3.23.RELEASE\spring-test-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-core\4.3.23.RELEASE\spring-core-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-webmvc\4.3.23.RELEASE\spring-webmvc-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-aop\4.3.23.RELEASE\spring-aop-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-beans\4.3.23.RELEASE\spring-beans-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-expression\4.3.23.RELEASE\spring-expression-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-web\4.3.23.RELEASE\spring-web-4.3.23.RELEASE.jar;C:\Users\ashin\.m2\repository\io\rest-assured\spring-web-test-client\5.3.0\spring-web-test-client-5.3.0.jar;C:\Users\ashin\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\ashin\.m2\repository\org\synchronoss\cloud\nio-multipart-parser\1.1.0\nio-multipart-parser-1.1.0.jar;C:\Users\ashin\.m2\repository\org\synchronoss\cloud\nio-stream-storage\1.1.3\nio-stream-storage-1.1.3.jar;C:\Users\ashin\.m2\repository\io\rest-assured\scala-support\5.3.0\scala-support-5.3.0.jar;C:\Users\ashin\.m2\repository\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar;C:\Users\ashin\.m2\repository\io\rest-assured\kotlin-extensions\5.3.0\kotlin-extensions-5.3.0.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.7.20\kotlin-stdlib-jdk8-1.7.20.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.7.20\kotlin-stdlib-1.7.20.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.7.20\kotlin-stdlib-common-1.7.20.jar;C:\Users\ashin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ashin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.7.20\kotlin-stdlib-jdk7-1.7.20.jar;C:\Users\ashin\.m2\repository\io\rest-assured\rest-assured-all\5.3.0\rest-assured-all-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\ashin\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\ashin\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ashin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ashin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ashin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ashin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ashin\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ashin\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ashin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ashin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ashin\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\ashin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\ashin\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\ashin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\ashin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\ashin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\ashin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\ashin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ashin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ashin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ashin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ashin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ashin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ashin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ashin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ashin\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ashin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ashin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\ashin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ashin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ashin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ashin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\ashin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\ashin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\ashin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ashin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ashin\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\ashin\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ashin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ashin\AppData\Local\Temp\surefire3821108078306879613\surefirebooter-20230517210332366_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="ashin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ashin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ashin\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\apache-maven-3.9.0-bin\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;F:\all softwares install\PostgreSQL\15\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ashin\AppData\Local\Microsoft\WindowsApps;C:\Users\ashin\AppData\Local\GitHubDesktop\bin;C:\Users\ashin\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testPostUser" classname="api.test.UserTests" time="30.947">
+    <system-out><![CDATA[DEBUG StatusConsoleListener Apache Log4j Core 2.20 initializing configuration XmlConfiguration[location=C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes\log4j2.xml]
+DEBUG StatusConsoleListener PluginManager 'Core' found 130 plugins
+DEBUG StatusConsoleListener PluginManager 'Level' found 0 plugins
+DEBUG StatusConsoleListener Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+DEBUG StatusConsoleListener PluginManager 'TypeConverter' found 26 plugins
+DEBUG StatusConsoleListener createProperty(name="filename", value="target/rolling1/rollingtest-$${sd:type}.log", Configuration(RoutingTest))
+DEBUG StatusConsoleListener Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+DEBUG StatusConsoleListener configureSubstitutor(={filename=target/rolling1/rollingtest-${sd:type}.log}, Configuration(RoutingTest))
+DEBUG StatusConsoleListener PluginManager 'Lookup' found 16 plugins
+DEBUG StatusConsoleListener Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+DEBUG StatusConsoleListener createFilter(level="DEBUG", onMatch="null", onMismatch="null")
+DEBUG StatusConsoleListener Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+DEBUG StatusConsoleListener PatternLayout$Builder(pattern="%m%n", PatternSelector=null, Configuration(RoutingTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+DEBUG StatusConsoleListener PluginManager 'Converter' found 45 plugins
+DEBUG StatusConsoleListener Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+DEBUG StatusConsoleListener createFilter(level="DEBUG", onMatch="null", onMismatch="null")
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+DEBUG StatusConsoleListener ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%m%n), name="STDOUT", Configuration(RoutingTest), ThresholdFilter(DEBUG), ={})
+DEBUG StatusConsoleListener Starting OutputStreamManager SYSTEM_OUT.false.false
+DEBUG StatusConsoleListener Building Plugin[name=Route, class=org.apache.logging.log4j.core.appender.routing.Route].
+DEBUG StatusConsoleListener createRoute(ref="null", key="null", Node=Route)
+DEBUG StatusConsoleListener Building Plugin[name=Route, class=org.apache.logging.log4j.core.appender.routing.Route].
+DEBUG StatusConsoleListener createRoute(ref="STDOUT", key="Audit", Node=Route)
+DEBUG StatusConsoleListener Building Plugin[name=Routes, class=org.apache.logging.log4j.core.appender.routing.Routes].
+DEBUG StatusConsoleListener Routes$Builder(Configuration(RoutingTest), pattern="${sd:type}", Script=null, ={Route(type=dynamic - type=Route default), Route(type=static Reference=STDOUT key='Audit')})
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.routing.RoutingAppender].
+DEBUG StatusConsoleListener RoutingAppender$Builder(Script=null, Routes({Route(type=dynamic - type=Route default),Route(type=static Reference=STDOUT key='Audit')}), RewritePolicy=null, PurgePolicy=null, ignoreExceptions="null", Layout=null, name="Routing", Configuration(RoutingTest), Filter=null, ={})
+DEBUG StatusConsoleListener Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+DEBUG StatusConsoleListener createAppenders(={STDOUT, Routing})
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="Routing", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+DEBUG StatusConsoleListener LoggerConfig$Builder(additivity="false", level="INFO", levelAndRefs="null", name="EventLogger", includeLocation="null", ={Routing}, ={}, Configuration(RoutingTest), Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="STDOUT", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+DEBUG StatusConsoleListener LoggerConfig$RootLogger$Builder(additivity="null", level="DEBUG", levelAndRefs="null", includeLocation="null", ={STDOUT}, ={}, Configuration(RoutingTest), Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+DEBUG StatusConsoleListener createLoggers(={EventLogger, root})
+DEBUG StatusConsoleListener Configuration XmlConfiguration[location=C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes\log4j2.xml] initialized
+DEBUG StatusConsoleListener Starting configuration XmlConfiguration[location=C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes\log4j2.xml]
+DEBUG StatusConsoleListener Started configuration XmlConfiguration[location=C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes\log4j2.xml] OK.
+DEBUG StatusConsoleListener Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+DEBUG StatusConsoleListener OutputStream closed
+DEBUG StatusConsoleListener Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+DEBUG StatusConsoleListener Appender DefaultConsole-1 stopped with status true
+DEBUG StatusConsoleListener Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@71b6172c OK
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44,component=StatusLogger
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44,component=ContextSelector
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44,component=Loggers,name=
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44,component=Loggers,name=EventLogger
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44,component=Appenders,name=STDOUT
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=c387f44,component=Appenders,name=Routing
+DEBUG StatusConsoleListener org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+DEBUG StatusConsoleListener Reconfiguration complete for context[name=c387f44] at URI C:\Users\ashin\eclipse-workspace\Reassured_Petstore_project\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@5b1efaaf) with optional ClassLoader: null
+DEBUG StatusConsoleListener Shutdown hook enabled. Registering a new one.
+DEBUG StatusConsoleListener LoggerContext[name=c387f44, org.apache.logging.log4j.core.LoggerContext@5b1efaaf] started OK.
+********Creating user*******
+HTTP/1.1 200 OK
+Date: Wed, 17 May 2023 15:34:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1119072377"
+}
+********User Created*******
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetUserByName" classname="api.test.UserTests" time="3.375">
+    <system-out><![CDATA[******** Reading user details*******
+HTTP/1.1 200 OK
+Date: Wed, 17 May 2023 15:34:33 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1119072377,
+    "username": "kendrick.ledner",
+    "firstName": "Delinda",
+    "lastName": "Kuhn",
+    "email": "shayne.damore@gmail.com",
+    "password": "iosu6fs",
+    "phone": "865.529.6020",
+    "userStatus": 0
+}
+********User details read by username*******
+]]></system-out>
+  </testcase>
+</testsuite>
